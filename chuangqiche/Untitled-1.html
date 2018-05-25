@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/123.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/首页.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>传奇车</title>
+</head>
+<body>
+        <div id="header">
+                <div id="nva">
+                    <div id="logo">
+                        <a href="index.html" >
+                            <img class="logo_img" src="images/logo.png" alt="首页">
+                        </a>
+                    </div>
+                    
+                    <ul id="title">
+                        <li><a href="Untitled-1.html">首页</a></li>
+                        <li><a href="案例\index.html" target="_blank">案例</a></li>
+                        <li><a href="网站\index.html" target="_blank">操作流程</a></li>
+                        <li><a href="关于我们\index.html" target="_blank">关于我们</a></li>
+                        <li><a href="常见问题\常见问题.html" target="_blank">常见问题</a></li>
+                    </ul>
+        
+                    <div id="login_and_re">
+                        <a href="登录界面\剑航.html"  target="_blank"><span class="login">登陆</span></a>  
+                        <a href="登录界面\注册页面.html" target="_blank"><span class="re">注册</span></a>
+                    </div>
+                </div>
+            </div>
+        <div id="banner">
+                <!--图片-->
+                <div class="pic">
+                     <img src="images1/3.jpg" style="display:block;" width="1200" height="429"/>
+                     <img src="images1/6.jpg" width="1200" height="429" />
+                     <img src="images1/11.jpg" width="1200" height="429" />
+                 </div>
+                 <!--button-->
+                 <div class="btn">
+                    <ul>
+                          <li class="on"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div> 
+                <script type="text/javascript" src="jquery-1.11.3.js"></script>
+                <script type="text/javascript">
+                 $(function(){
+                     var index=0;
+                     $('div.btn ul ui').hover(function() {
+                         index=$(this).index();
+                         
+                         $(this).addClass('on').siblings().removeClass('on');
+                         $('div.pic img').eq(index).stop(true).fadeIn().siblings().stop(true).fadeOut();
+                         },function(){});
+                         
+                         var play=setInterval(auto,2000);
+                        function auto(){
+                            index++;
+                            index%=6;
+                         $('div.btn ul ui').eq(index).addClass('on').siblings().removeClass('on');
+                         $('div.pic img').eq(index).stop(true).fadeIn().siblings().stop(true).fadeOut();
+                        } 
+                 });
+                 
+                     
+                </script>
+               <p>
+               <p>
+                <p><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="9%">&nbsp;</td>
+            <td width="5%">&nbsp;</td>
+            <td width="41%">&nbsp;</td>
+            <td width="29%"><span class="b">小何，把这个月各个部门的用车费用给我看下。</span></td>
+            <td width="5%"><span class="b"><img src="images1/2_04.png"/></span></td>
+            <td width="11%"><span class="b">管理层-李总</span></td>
+          </tr>
+          <tr>
+            <td width="9%"><span class="b">&nbsp;财务-小何</span></td>
+            <td> <span class="b"> <img src="images1/2_14.png"/> </span></td>
+            <td><span class="b">好的，这是您要的各个部门的用车费用。</span></td>
+            <td width="29%">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><span class="b">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业务量没增长，费用倒是直线上升。</span></td>
+            <td><span class="b"><img src="images1/2_04.png"/></span></td>
+            <td><span class="b">管理层-李总</span></td>
+          </tr>
+        </table>
+        
+                
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="19%">&nbsp;&nbsp;<img src="images1/4.jpg" width="190" height="220"></td>
+                    <td width="81%">&nbsp;&nbsp;&nbsp;<span class="a">&nbsp;你还在为员工用车问题烦恼吗？</span></td>
+                  </tr>
+                </table>
+                <table width="93%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="3" rowspan="4">&nbsp;&nbsp;<img src="images1/9.jpg" width="500" height="288"></td>
+                    <td width="8%" ></td>
+                    <td width="15%" >&nbsp;</td>
+                    <td width="7%" height="74" bgcolor="#000000" class="c">财务 </td>
+                    <td width="16%" bgcolor="#FFFFFF"><div title="提供月结和统一开票服务,按类别、部门等生成用车费用数据,财务无需审核票据,从而提升了工作效率。"><div>———费用票据归集
+                    <div></td>
+                  </tr>
+                  <tr>
+                    <td height="64" >&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="81" bgcolor="#000000" class="c">管理层</td>
+                    <td><div title="通过传奇车服务平台自动化管理,极大简化审核流程;企业端查看用车明细数据,降低管理成本,提升管理效率"><div>————管理效率高</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                 
+                 
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="25%">&nbsp;</td>
+                    <td width="7%" height="74" bgcolor="#000000" class="c">员工</td>
+                    <td width="21%"><div title="用车前,设置用车规则、匹配员工；用车后,行驶数据（时间、起点、终点）一目了然、自动生成里程报表,行程透明化,避免不合规用车。"><div>——————用车真实性</td>
+                    <td width="11%">&nbsp;</td>
+                    <td width="12%">&nbsp;</td>
+                    <td width="12%">&nbsp;</td>
+                    <td width="12%">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <p><span class="abc">员工-小张</span><img src="img/2_14.png" width="56" height="45"> <span class="max">咚咚...李总，下午约了客户谈业务，想申请用车。</span></p>
+                <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="right"><span class="b">去行政部填个单，走审批流程。</span><img src="img/2_04.png" alt="" width="56" height="45"><span class="a">管理层-李总</span></td>
+                  </tr>
+                </table>
+                <p>&nbsp;</p>
+                <p><span class="abc">员工-小张</span><img src="img/2_14.png" width="56" height="45"> <span class="max">我赶时间，可以开我自己的车去吗？</span></p>
+                <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="86%" align="right"><span class="b">行，公司车也少，用的人还多，以后你们业务</span></td>
+                    <td width="14%" rowspan="2" align="right"><img src="img/2_04.png" alt="" width="56" height="45"><span class="a">管理层-李总</span></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><span class="b">部门就开自己的车去谈业务，每月月底报销。</span></td>
+                  </tr>
+                </table>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p class="bb">为员工简化流程，用出行福利留住员工</p><p>&nbsp;</p>
+                <p class="bb"><div class="style5"><img src="img/2.jpg" width="650" height="320"></div>
+                <p class="liumix"><strong>平台提供自动化管理，实现一键审核，为员工省去流程</strong>
+                </p>
+                <p>&nbsp;</p>
+                
+                <p class="liumix"><strong>平台代缴个税，为员工纳税提供便捷</strong></p>
+                <p>&nbsp;</p>
+                <p class="liumix"><strong>员工个人所得税大幅下降，从而增加员工个人的收入</strong></p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <p class="liumix">&nbsp;</p>
+                <table width="1228" height="1126" border="0" cellpadding="0" cellspacing="0"
+                align="center">
+                  <tr>
+                    <td width="46" height="200">&nbsp;</td>
+                    <td colspan="2" >&nbsp;</td>
+                    <td width="368" height="200"><table width="1000%" height="159" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="max2">&nbsp;&nbsp;&nbsp;<strong>数据共存</strong></span></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;连接财务，HR系统等系统，实</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现企业管理需求，让企业内外</td>
+                      </tr>
+                      <tr>
+                        <td height="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资源互联互通。</td>
+                      </tr>
+                    </table></td>
+                    <td colspan="2" rowspan="2"><img src="img/7.jpg" width="432" height="370"></td>
+                    <td width="170">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="279">&nbsp;</td>
+                    <td colspan="2">。</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="42">&nbsp;</td>
+                    <td width="117">&nbsp;</td>
+                    <td colspan="2" rowspan="4"><img src="img/微信图片_20180516174559.jpg" width="348" height="440" align="texttop"></td>
+                    <td width="203" rowspan="3"><img src="img/微信图片_20180516174628.jpg" width="203" height="255"></td>
+                    <td width="297" rowspan="3"><img src="img/8.jpg" width="238" height="240"></td>
+                    <td width="170" rowspan="3"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td class="max2"><p><strong>增值服务</strong></p></td>
+                      </tr>
+                      <tr>
+                        <td>畅享洗车，换油保养，停车,</td>
+                      </tr>
+                      <tr>
+                        <td>高速公路ETC等一站式增值</td>
+                      </tr>
+                      <tr>
+                        <td>服务</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td width="117">&nbsp;</td>
+                    <td rowspan="2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="172">&nbsp;</td>
+                    <td width="117">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="27" colspan="2" valign="bottom">&nbsp;</td>
+                    <td colspan="3"><img src="img/微信图片_20180516174618.jpg" width="440" height="225"></td>
+                    <td width="26">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="144" colspan="4"><table width="466" height="138" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="max2"><strong>互联网快捷加油</strong></td>
+                        </tr>
+                        <tr>
+                          <td><p>享受各种油价的优惠 ， 提供便捷的充</p>
+                          <p>&nbsp;&nbsp;值，体验不下车快捷服务。</p></td>
+                        </tr>
+                    </table></td>
+                    <td colspan="2">&nbsp;</td>
+
+                  </tr>
+                </table>
+
+ 
+    <div id="shang">
+        <div id="txt">
+            <p class="one">管理就在弹指之间</p>
+            <p class="two">手机端登陆，随时随地查看行程<br/><br/>短信提醒，短信进行管理<br/><br/>一辆多卡的手机加油卡，额度可更改功能功能</p>
+        </div>
+        <div id="pic">
+            <img class="img1" src="images/1.jpg" alt="picture1">
+            <div class="i"></div>
+            <img class="img2" src="images/2.jpg" alt="picture2">
+        </div>
+    </div>
+ 
+    <div id="button">
+        
+        <span class="weixin">
+                    <img class="img9" src="images/9.png" alt="二维码">
+            微信公众号</span>
+        <a href=""><span class="weixin">充值</span></a>
+    </div>
+    <div id="partnet">
+        <ul id="photo">
+            <li><img src="images/3.png" alt="picture3"></li>
+            <li><img src="images/4.jpg" alt="picture4"></li>
+            <li><img src="images/5.png" alt="picture5"></li>
+            <li><img src="images/6.png" alt="picture6"></li>
+            <li><img src="images/7.jpg" alt="picture7"></li>
+            <li><img src="images/8.jpg" alt="picture8"></li>
+        </ul>
+    </div>
+    <div class="i"></div>
+    <div id="contact">
+        <p>
+            深圳前海传奇汽车服务有限公司<br/><br/>联系电话：0755—83942619<br/><br/>
+            联系人：龚希晨（小姐）<br/><br/>地址：广东省深圳市福田区红荔西 路华茂欣园大厦19B
+
+        </p>
+    </div>

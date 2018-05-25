@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>传奇车-用车流程</title>
+<link href="css/head.css" rel="stylesheet" type="text/css" />
+<link href="css/body.css" rel="stylesheet" type="text/css" />
+</head>
+<body >
+
+<div id="header">
+        <div id="nva">
+            <div id="logo">
+                <a href="index.html">
+                    <img class="logo_img" src="images/logo.png" alt="首页">
+                </a>
+            </div>
+            
+            <ul id="title">
+                <li><a href="">首页</a></li>
+                <li><a href="">案例</a></li>
+                <li><a href="index.html">操作流程</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">常见问题</a></li>
+            </ul>
+
+            <div id="login_and_re">
+                <a href=""><span class="login">登陆</span></a>  
+                <a href=""><span class="re">注册</span></a>
+            </div>
+        </div>
+</div>
+  <p >&nbsp;</p>
+<div style="background-color:#EEE;">
+<div class="div">
+
+  <p >&nbsp;</p> 
+ <div class="div1">
+       <p style="font-size:24px;"> &nbsp;用车流程</p>
+       <p>1.首先登陆www.chuanqicar.com平台进入登面</p>
+       <p>2.企业用户首次使用平台需要企业注册:进入登陆页面,点击企业注册,进入企          业页面,完善注册信息保存.等待传奇车平台审核</p>
+       <p>3.完善企业信息,点击保存.等待平台审核</p>
+       <p>4.登陆:后台审核通过以后,企业登陆账号为手机号码,初始密码为手机号后4位</p>
+       <p>5.点击登陆进入企业中心</p>
+       <p>6.订单:订单创建首先点击下载模板,系统导出一个车主个人信息表格 </p>
+       <p>7.完善基本的信息，之后点击创建订单然后选择订单的月份、加油方式最后点击上传明细</p>
+       <p>8.生成订单,对订单复核,确认订单无误后,提交订单 </p>
+       <p>9.线下企业付款给平台,上传企业付款流水,等待平台审核确定.</p>
+       <p>10.等待平台向车主付款</p>
+       <p>11.确定平台已付款</p>
+       <p>12.订单完成</p>
+   </div>
+    
+</div>
+       
+<p >&nbsp;</p>
+ 
+<p class="p">以下图片为具体的操作内容 </p>
+
+
+   <!-- 示例一 -->
+
+    <div class="J_banner J_banner1">
+        <ul class="img">
+            <li>
+                 <img src="images/1.png" alt="">
+            </li>
+            <li>
+                 <img src="images/2.png" alt="">
+            </li>
+             <li>
+                 <img src="images/3.png" alt="">
+            </li>
+            <li>
+                 <img src="images/4.png" alt="">
+            </li>
+            <li>
+                 <img src="images/5.png" alt="">
+            </li>
+            <li>
+                 <img src="images/6.png" alt="">
+            </li>
+            <li>
+                 <img src="images/7.png" alt="">
+            </li> 
+              <li>
+                 <img src="images/8.png" alt="">
+            </li> 
+            
+        </ul> 
+<ul class="pointer"></ul><!-- 点 -->
+        <a class="cut prev"><</a><!-- 上一张 -->
+        <a class="cut next">></a><!-- 下一张 -->
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</body>
+
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="Myapi.js"></script>
+<script>
+    $(function(){
+
+        var myApi1 = new Myapi();
+        myApi1.JSON.lagout($('.J_banner1'),2000,0);
+
+        var myApi2 = new Myapi();
+        myApi2.JSON.lagout($('.J_banner2'),1000,10);
+
+        var myApi3 = new Myapi();
+        myApi3.JSON.lagout($('.J_banner3'),3000,20);
+
+    })
+</script>
+</html>

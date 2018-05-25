@@ -1,0 +1,11 @@
+@charset "utf-8";
+.pt 
+   {
+	margin:6.5% 15%;
+	background-repeat: no-repeat;
+	border:solid 1px;
+	background-color:#333;
+	width:1400px;
+	height:780px;   
+	   
+  }

@@ -1,0 +1,85 @@
+/*通用样式*/
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: #f60;
+	
+}
+body {
+    font-family: "微软雅黑";
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*header样式*/
+
+#header {
+    width: 100%;
+    height: 70px; 
+    background-color: #F4F4F4;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    z-index: 2;
+	
+}
+#nva {
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 1280px;
+    overflow: hidden;
+}
+#logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.logo_img {
+    width: 100px;
+    height:66px;
+}
+#title {
+    float: left;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    margin-left: 130px;
+}
+#title li {
+    list-style: none;
+    float: left;
+    margin-right: 60px;
+    height: 70px;
+    line-height: 80px;
+}
+
+#login_and_re {
+    float: right;
+    margin-right: 100px;
+    height: 70px;
+}
+.login {
+    margin-right: 60px;
+    height: 70px;
+    line-height: 80px;
+    color: rgb(114, 116, 224);
+}
+.re {
+    height: 70px;
+    line-height: 80px;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid rgb(88, 88, 235);
+    border-radius: 10px;
+    color: black;
+}
+.re:hover {
+    background-color: rgb(88, 88, 235);
+    color: white;
+}

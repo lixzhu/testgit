@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <title>传奇车-案例</title>
+</head>
+<body>
+    <div id="header">
+        <div id="nva">
+            <div id="logo">
+                <a href="index.html">
+                    <img class="logo_img" src="images/logo.png" alt="首页">
+                </a>
+            </div>
+            
+            <ul id="title">
+                <li><a href="../Untitled-1.html"target="_blank" >首页</a></li>
+                <li><a href="index.html" target="_blank">案例</a></li>
+                <li><a href="../操作流程/index.html" target="_blank">操作流程</a></li>
+                <li><a href="../关于我们/index.html" target="_blank">关于我们</a></li>
+                <li><a href="../常见问题/常见问题.html"target="_blank" >常见问题</a></li>
+            </ul>
+
+            <div id="login_and_re">
+                <a href="../登录界面/剑航.html" target="_blank"><span class="login">登陆</span></a>  
+                <a href="../登录界面/注册页面.html" target="_blank"><span class="re">注册</span></a>
+            </div>
+        </div>
+    </div>
+    <div id="imgs">
+        <div class="J_banner J_banner1">
+            <ul class="img">
+                <li>
+                    <img class="lunbo" src="images/A1.png" alt="">
+                </li>
+                <li>
+                    <img class="lunbo" src="images/A2.png" alt="">
+                </li>
+                <li>
+                    <img class="lunbo" src="images/A3.png" alt="">
+                </li>
+            </ul>
+            <ul class="pointer"></ul><!-- 点 -->
+            <a class="cut prev"><</a><!-- 上一张 -->
+            <a class="cut next">></a><!-- 下一张 -->
+        </div>
+    </div>
+    <div id="weixin">
+        <img class="img1" src="images/erweima.png" alt="二维码">
+        <img class="img2" src="images/weixin.png" alt="微信">
+    </div>
+    <hr/>
+    <div id="center">
+        <div class="example1">
+            <div class="example1_img">
+                <img src="images/1524832112(1).png">
+            </div>
+            <div class="example1_text">
+                <ul class="tabbtn" id="move-animate-top">
+                    <li class="current"><a href="#/jquery/items/">证据链</a></li>
+                    <li><a href="#/js/items/">垫资</a></li>
+                    <li><a href="#/css3/items/">ERP与平台对接</a></li>
+                    <li><a href="#/html5/items/">离职人员</a></li>
+                </ul><!--tabbtn end-->
+                <div class="tabcon" id="topcon">
+                    <div class="subbox">
+                        <div class="sublist">
+                            <p>1、签订企业用车服务协议<br/>
+                                2、平台每月生成订单，贵公司审核确认<br/>
+                                3、平台记录车辆行驶里程,自动生成每日里程报表、每月里程报表<br/>
+                                4、每月月底开具增值税专用发票（包含当月租金、上月油费及平台费）<br/>
+                            </p>
+                        </div><!--tabcon end-->
+                        <div class="sublist">
+                            <p>
+                                根据坚朗五金的车辆分布，深圳和东莞首先开始试点合作，逐步建立信任<br/>
+                                资金在平安银行监管，车主自助提取租赁费<br/>
+                                目前正在与平安银行进行金融合作协商，计划第三季度完成，届时，车主、传奇车平台、坚朗五金和银行四方签订协议，体验定制金融服务。<br/>
+                            </p>
+                        </div><!--tabcon end-->
+                        <div class="sublist">
+                            <p><img src="images/neirong3.png" alt=""></p>
+                        </div><!--tabcon end-->
+                        <div class="sublist">
+                            <p>A.油卡对应固定车牌号码，贵公司必须将离职人员的油卡收回。<br/>
+                                B.贵公司将离职人员的油卡交给平台业务人员，变更或注销油卡，变更-卡内余额不变，注销-卡内余额返还至公司。<br/>
+                                c.平台系统删除离职人员信息
+                            </p>
+                        </div><!--tabcon end-->
+                    </div><!--tabcon end-->
+                </div>
+            </div>
+        </div>
+        <div class="example2"></div>
+        <div class="example3"></div>
+    </div>
+    <div id="bottom">
+        <div class="text">
+            <div class="huoban">
+                <span>合作伙伴</span>
+                <ul>
+                    <li><a>中国石油</a></li>
+                    <li><a>中国石化</a></li>
+                    <li><a>PICC</a></li>
+                    <li><a>太平洋保险</a></li>
+                </ul>
+            </div>
+            <div class="women">
+                <span>关于我们</span>
+                <ul>
+                    <li><a>电话：0755—83942619</a></li>
+                    <li><a>地址：广东省深圳市福田区红荔西 路华茂欣园银杏阁19B</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="button">
+            <a href=""><span class="re">免费注册</span></a>
+        </div>
+    </div>
+
+</body>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/Myapi.js"></script>
+<script type="text/javascript" src="js/jquery.tabso_yeso.js"></script>
+<script>
+    $(function(){
+
+        var myApi1 = new Myapi();
+        myApi1.JSON.lagout($('.J_banner1'),2000,0);
+    })
+
+
+    $(document).ready(function($){
+
+        //上下滑动选项卡切换
+
+        $("#move-animate-top").tabso({
+
+            cntSelect:"#topcon",
+
+            tabEvent:"mouseover",
+
+            tabStyle:"move-animate",
+
+            direction : "top"
+
+        });
+
+    });
+</script>
+</html>
