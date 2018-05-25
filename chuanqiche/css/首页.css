@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f60;
+}
+body {
+    font-family: "微软雅黑";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*header样式*/
+
+#header {
+    width: 100%;
+    height: 70px; 
+    background-color: #F4F4F4;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    z-index: 2;
+}
+#nva {
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 1280px;
+    overflow: hidden;
+}
+#logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.logo_img {
+    width: 100px;
+    height: 66px;
+}
+#title {
+    float: left;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+	}
+#title li {
+    list-style: none;
+    float: left;
+    margin-right: 60px;
+    height: 70px;
+    line-height: 80px;
+}
+
+
+
+*{
+	margin:0;
+	padding:0;
+	}
+#banner{
+	width:700px;
+	height:600px;
+	text-align: center;
+	}
+	.pic{
+		width:730px;
+		height:454px;
+	}
+	.pic img{
+		position:absolute;
+		top:88px;left:88px;
+		display:none;
+		}	
+	.btn{
+		width:150px;
+		height:18px;
+		position:absolute;
+		bottom:140px;left:50%;
+		margin-left:-50px;
+		
+	}
+	.btn ul li{
+		list-style-type:none;
+		float:left;
+		width:18px;
+		height:18px;
+		background-color:#333;
+		border-radius:9px;
+		color:#fff;
+		font-size:12px;
+		font-family:'Microsoft yahei';
+		text-align:center;
+		line-height:18px;
+		cursor:pointer;
+		margin:0 3px;
+		}
+		.btn ul ui.on{ background-color:#B1191A;}
+.a {
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	color: #0C0;
+}
+.b {
+	font-family: "微软雅黑";
+	color: #0C0;
+}
+.c {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.abc {
+	font-family: "微软雅黑";
+	color: #39F;
+	font-size: 18px;
+}.bb {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	color: #000;
+}
+.max {
+	font-family: "微软雅黑";
+	color: #36F;
+}
+.liumix {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.style5 {
+	float:right;
+    margin-left:10px;
+	margin-right:40px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.style6 {
+	float:right;
+	width: 600px;	
+	
+}
+.max2 {
+	font-family: "微软雅黑";
+	font-size: 36px;
+}
