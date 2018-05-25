@@ -40,7 +40,7 @@ body {
 #logo {
     float: left;
     margin-left: 40px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 .logo_img {
     width: 100px;
