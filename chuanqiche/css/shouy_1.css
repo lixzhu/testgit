@@ -1,4 +1,137 @@
 
+/*对话一*/
+.divone{
+	margin-top:100px;
+	margin-bottom:80px;
+	}
+.dialog5{
+	text-align:right;
+	color:#0C3;
+	}
+.dialog6{
+	text-align:left;
+	color:#09F;
+	}
+.dialog7{
+	text-align:right;
+	color:#0C3;
+	}
+/*对话2*/
+.div1{
+	margin-top:100px;
+
+	}
+.dialog1{
+	text-align:left;
+	color:#09F;
+	}
+.dialog2{
+	text-align:right;
+	color:#0C3;
+	}
+.dialog3{
+	text-align:left;
+	color:#09F;
+	}
+.dialog4{
+	text-align:right;
+	color:#0C3;
+	}
+.div2{
+	width:100%;
+	height:500px;
+	margin-top:100px;
+	}
+.yuang_z{
+	float:left;
+	width:50%;
+	height:500px;
+	}
+.yuang_z p{
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:45px;
+	}
+.yuang_y{
+	float:right;
+	width:50%;
+	height:500px;
+	}
+/*传奇车的特色*/
+.div3{
+	margin-top:100px;
+	margin-bottom:60px;
+	width:100%;
+	height:700px;
+	}
+.ts_s{
+	width:100%;
+	height:350px;
+	
+	}
+.ts_s_one{
+	float:left;
+	width:30%;
+	height:350px;
+	text-align:right;
+	}
+.ts_s_one p{
+	font-family:"微软雅黑";
+	font-size:18px;
+
+	}
+.ts_s_two{
+	float:left;
+	width:40%;
+	height:350px;
+	text-align:center;
+	}
+.ts_s_three{
+	float:right;
+	width:30%;
+	height:350px;
+	}
+.ts_x{
+	width:100%;
+	height:350px;
+	}
+.ts_x_one{
+	float:left;
+	width:25%;
+	height:350px;
+	text-align:right;
+	}
+.ts_x_one p{
+	font-family:"微软雅黑";
+	font-size:18px;
+	}
+.ts_x_two{
+	float:left;
+	width:25%;
+	height:350px;
+	text-align:right;
+	}
+.ts_x_three{
+	float:left;
+	width:25%;
+	height:350px;
+	text-align:left;
+	}
+
+.ts_x_four{
+	float:left;
+	width:25%;
+	height:350px;
+	}
+.ts_x_four p{
+	font-family:"微软雅黑";
+	font-size:18px;
+	}
+/* CSS Document */
+
+
+/*手机端*/
+
 .shouji{
 	padding:10px;
 	width:100%;
@@ -55,6 +188,7 @@ h3:hover+.imgG{
 	width:100%;
 	height:300px;
 	}
+/*合作伙伴*/
 .hzhb{
 	width:100%;
 	height:160px;
@@ -113,3 +247,4 @@ h3:hover+.imgG{
 	color:#FFF;
 }
 	/* CSS Document */
+

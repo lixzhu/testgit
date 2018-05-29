@@ -33,60 +33,65 @@
                     </div>
                 </div>
             </div>
-        <div id="banner">
-                <!--图片-->
+       <div class="banner">
+                <!--图片区-->
                 <div class="pic">
-                     <img src="images/shouyl_1.jpg" style="display:block;" width="1200" height="429"/>
-                     <img src="images/shouyl_2.jpg" width="1200" height="429" />
-                     <img src="images/shouyl_3.jpg" width="1200" height="429" />
+                     <img src="images/shouyl_1.jpg" style="display:block;" width="100%" height="100%"/> <!--插入图片-->
+                     <img src="images/shouyl_2.jpg" width="100%" height="100%" />
+                     <img src="images/shouyl_3.jpg" width="100%" height="100%" />
                  </div>
-                 <!--button-->
+                 <!--按钮区-->
                  <div class="btn">
+                 <!--按钮排列-->   
                     <ul>
-                          <li class="on"></li>
-                        <li></li>
-                        <li></li>
+                          <li class="on">1</li>
+                        <li>2</li>
+                        <li>3</li>
                     </ul>
                   </div>
-                </div> 
-                <script type="text/javascript" src="js/shouy_js.js"></script>
-                <script type="text/javascript">
+                </div>
+      
+              <script type="text/javascript" src="js/shouy_js.js"></script><!--引入js库-->
+        <script type="text/javascript"> <!--创建script标签-->
+		<!--当页面加载完成后显示当前的内容-->
                  $(function(){
-                     var index=0;
-                     $('div.btn ul ui').hover(function() {
-                         index=$(this).index();
+                   var index=0;
+					  <!--当鼠标移动到按钮区时的变化-->
+                     $('div.btn ul li').hover(function() {
+                         index=$(this).index();<!--定义按钮与图片相对应的序列号--> 
                          
-                         $(this).addClass('on').siblings().removeClass('on');
+                         $(this).addClass('on').siblings().removeClass('on');<!--设置鼠标移入当前按钮后引用样式on，其他则不引用-->
                          $('div.pic img').eq(index).stop(true).fadeIn().siblings().stop(true).fadeOut();
                          },function(){});
-                         
+                         <!--图片自动轮播-->
                          var play=setInterval(auto,2000);
                         function auto(){
                             index++;
                             index%=6;
-                         $('div.btn ul ui').eq(index).addClass('on').siblings().removeClass('on');
+                         $('div.btn ul li').eq(index).addClass('on').siblings().removeClass('on');
                          $('div.pic img').eq(index).stop(true).fadeIn().siblings().stop(true).fadeOut();
                         } 
                  });
                  
                      
                 </script>
+<!--
                <p>
                <p>
                 <p><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="9%">&nbsp;</td>
             <td width="5%">&nbsp;</td>
-            <td width="41%">&nbsp;</td>
-            <td width="29%"><span class="b">小何，把这个月各个部门的用车费用给我看下。</span></td>
+            <td width="42%">&nbsp;</td>
+            <td width="28%"><span class="b">小何，把这个月各个部门的用车费用给我看下。</span></td>
             <td width="5%"><span class="b"><img src="images/liz.png"/></span></td>
             <td width="11%"><span class="b">管理层-李总</span></td>
           </tr>
           <tr>
-            <td width="9%"><span class="b">&nbsp;财务-小何</span></td>
+            <td width="9%"><span class="d">&nbsp;财务-小何</span></td>
             <td> <span class="b"> <img src="images/xiao.png"/> </span></td>
-            <td><span class="b">好的，这是您要的各个部门的用车费用。</span></td>
-            <td width="29%">&nbsp;</td>
+            <td><span class="d">好的，这是您要的各个部门的用车费用。</span></td>
+            <td width="28%">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -98,12 +103,34 @@
             <td><span class="b"><img src="images/liz.png"/></span></td>
             <td><span class="b">管理层-李总</span></td>
           </tr>
-        </table>
-        
+          -->
+
+<!--对话2-->
+<div class="divone">
+    
+  <div class="dialog5">
+    	<h2><span>小何，把这个月各个部门的用车费用给我看下。</span><img src="images/liz.png" alt="" width="56" height="45"><span>管理层-李总</span></h2>
+    </div>
+    
+  <div class="dialog6">
+    	<h2><span>员工-小何</span><img src="images/xiao.png" width="56" height="45"> <span>好的，这是您要的各个部门的用车费用。</span></h2>
+    </div>
+    
+    <div class="dialog7">
+   	  <h2><span>业务量没增长，费用倒是直线上升。</span><img src="images/liz.png" alt="" width="56" height="45"><span>管理层-李总</span></h2>
+    </div>
+    
+   
+</div>          
+
+          
+          
+        <!--</table>
+-->        
                 
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td width="9%"><span class="b">财务-小何</span><img src="images/xiao.png" ></td>
+                    <td width="9%"><img src="images/yiwen.jpg" width="200" height="220"></td>
                     <td width="81%">&nbsp;&nbsp;&nbsp;<span class="a">&nbsp;你还在为员工用车问题烦恼吗？</span></td>
                   </tr>
                 </table>
@@ -148,7 +175,7 @@
                     <td width="12%">&nbsp;</td>
                   </tr>
                 </table>
-
+<!--
                 <p><span class="abc">员工-小张</span><img src="images/xiao.png" width="56" height="45"> <span class="max">咚咚...李总，下午约了客户谈业务，想申请用车。</span></p>
                 <table width="95%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
@@ -188,7 +215,7 @@
                 <p class="liumix">&nbsp;</p>
                 <p class="liumix">&nbsp;</p>
                 <p class="liumix">&nbsp;</p>
-                
+                <img class="img2" src="images/shouji_x.jpg" alt="picture2">
                 <table width="1128" height="1126" border="0" cellpadding="0" cellspacing="0"
                 align="center">
                   <tr>
@@ -270,7 +297,116 @@
 
                   </tr>
                 </table>
-   <!--手机端-->
+               
+    <div id="shang">
+        <div id="txt">
+            <p class="one">管理就在弹指之间</p>
+            <p class="two">手机端登陆，随时随地查看行程<br/><br/>短信提醒，短信进行管理<br/><br/>一辆多卡的手机加油卡，额度可更改功能功能</p>
+        </div>
+        <div id="pic">
+            <img class="img1" src="images/shouji_s.jpg" alt="picture1">
+            <div class="i"></div>
+        </div>
+    </div>
+ 
+    <div id="button">
+        
+        <span class="weixin">
+                    <img class="img9" src="images/9.png" alt="二维码">
+            微信公众号</span>
+        
+    </div>
+    <div id="partnet">
+        <ul id="photo">
+            <li><img src="images/zhongguosy.png" alt="picture3"></li>
+            <li><img src="images/taipy.jpg" alt="picture4"></li>
+            <li><img src="images/weizyh.png" alt="picture5"></li>
+            <li><img src="images/pinganyinhang.png" alt="picture6"></li>
+            <li><img src="images/renminbx.jpg" alt="picture7"></li>
+            <li><img src="images/zhonggsh.jpg" alt="picture8"></li>
+        </ul>
+    </div>
+    <div class="i"></div>
+    <div id="contact">
+        <p>
+            深圳前海传奇汽车服务有限公司<br/><br/>联系电话：0755—83942619<br/><br/>
+            联系人：龚希晨（小姐）<br/><br/>地址：广东省深圳市福田区红荔西 路华茂欣园大厦19B
+
+        </p>
+    </div>
+    -->
+<!--对话2-->
+<div class="div1">
+	<div class="dialog1">
+    	<h2><span>员工-小张</span><img src="images/xiao.png" width="56" height="45"> <span>咚咚...李总，下午约了客户谈业务，想申请用车。</span></h2>
+    </div>
+    
+    <div class="dialog2">
+    	<h2><span>去行政部填个单，走审批流程。</span><img src="images/liz.png" alt="" width="56" height="45"><span>管理层-李总</span></h2>
+    </div>
+    
+    <div class="dialog3">
+    	<h2><span>员工-小张</span><img src="images/xiao.png" width="56" height="45"> <span>我赶时间，可以开我自己的车去吗？</span></h2>
+    </div>
+    
+    <div class="dialog4">
+    	<h2><span>行，公司车也少，用的人还多，以后你们业务部门就开自己的车去谈业务，每月月底报销。</span><img src="images/liz.png" alt="" width="56" height="45"><span>管理层-李总</span></h2>
+    </div>
+</div>
+
+
+<!--员工方面优点介绍-->
+<div class="div2">
+
+    <div class="yuang_z">
+        <p></p>
+    	<h1>&nbsp;&nbsp;为员工简化流程，用出行福利留住员工</h1>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;平台提供自动化管理，实现一键审核，为员工省去流程</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;平台代缴个税，为员工纳税提供便捷</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;员工个人所得税大幅下降，从而增加员工个人的收入</p>
+    </div>
+    <div class="yuang_y"><img src="images/shujufx.jpg" width="100%" height="100%">
+    </div>
+</div>
+
+
+<!--传奇车特色-->
+
+<div class="div3">
+	<div class="ts_s">
+    <div class="ts_s_one">
+    	<h1>数据共存</h1>
+        <p>连接财务，HR系统等系统，实</p>
+        <p>现企业管理需求，让企业内外</p>
+        <p>资源互联互通。</p>
+    </div>
+    <div class="ts_s_two"><img src="images/dashuju.jpg" align="center" width="380px" height="350px"></div>
+   
+     <div class="ts_s_three"></div>   
+    </div>
+    <div class="ts_x">
+    	<div class="ts_x_one">
+        	<h1>互联网快捷加油</h1>
+            <p>享受各种油价的优惠 ， 提供便捷</p>
+            <p>的充值，体验不下车快捷服务。</p>
+        </div>
+        <div class="ts_x_two"><img src="images/jiayou.jpg" width="368"
+        height="347"></div>
+        <div class="ts_x_three"><p><img src="images/etc.jpg" width="201" height="172"><img src="images/jiayou _1.jpg" width="187" height="173"><img src="images/xiche.jpg" width="383" height="168"></p>
+          <p>&nbsp;</p>
+            
+      </div>
+        <div class="ts_x_four">
+        	<h1>增值服务</h1>
+            <p>畅享洗车，换油保养，停车,高速</p>
+            <p>公路ETC等一站式增值服务</p>
+        </div>
+  </div>
+</div>
+
+    
+    
+<!--手机端-->
 
 	<div class="shouji">
         <div class="shouji_z">
@@ -292,7 +428,7 @@
 
 <!--合作伙伴-->
 
-   <div class="hzhb">
+<div class="hzhb">
         <div class="first"></div>
         <div class="one" <img src="images/pinganyinhang.png" align="center" width="90%" height="100px"></div>
         <div class="two" <img src="images/weizyh.png" align="center" width="90%" height="100px"></div>
@@ -300,7 +436,7 @@
         <div class="four" <img src="images/zhongguosy.png" align="center" width="90%" height="100px"></div>
         <div class="five" <img src="images/renminbx.jpg" align="center" width="90%" height="100px"></div>
         <div class="six" <img src="images/taipy.jpg" align="center" width="90%" height="100px"></div>
-        <div class="left"></div>
+<div class="left"></div>
    </div>
   
 <!--页尾-->
