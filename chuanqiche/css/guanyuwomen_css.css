@@ -86,6 +86,8 @@ body {
 
 /******* 底下样式  *******/
 
+
+/***   t1，t2 是圆的css代码   ***/
 #t1 {
     float:left;
     width:150px;
@@ -105,20 +107,20 @@ body {
 
 
 
-
+/***   普通文字  ***/
 .putonz {
 	font-family:"Microsoft Yahei",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WeQuanYi Micro Hei",sans-serif;
 	font-size: 18px;
 	color:#000;
 	font-weight:200
 }
-
+/***  小型号的普通文字  ***/
 .putonx {
 	font-family:"Microsoft Yahei",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WeQuanYi Micro Hei",sans-serif;
 	font-size: 14px;
 	font-weight:300;
 }
-
+/***  标题文字  ***/
 .biaot {
 	font-family: "微软雅黑";
 	font-size: 26px;
@@ -132,7 +134,7 @@ body {
 	font-weight:500;
 	color: #000;
 }
-
+/***  白色文字  ***/
 .bai {
 	font-family: "微软雅黑";
 	font-size: 26px;
@@ -140,7 +142,7 @@ body {
 	color:#FFF;
 }
 
-
+/***  网页第一个盒子  ***/
 
 #main {
 	
@@ -168,6 +170,8 @@ body {
 	margin-right: 5px;
 }
 
+
+/***  网页的第二个盒子  ***/
 #maina {
 	/*background-color: #009;*/
 	height: 30px;
@@ -175,6 +179,7 @@ body {
 	margin-top: 0px;
 }
 
+/*** 网页的第三盒子  ***/
 #mainb {
 	background-color:#C60;
 	height: 434px;
@@ -306,6 +311,8 @@ body {
 	font-weight:600
 }
 
+
+/*** 网页的第四盒子  ***/
 #mainc {
 	
 	/*background-color: #069;*/
@@ -314,6 +321,7 @@ body {
 	margin-top: 50px
 }
 
+/*** 网页的第五盒子  ***/
 #maind {
 	
 	/*background-color: #069;*/
@@ -390,6 +398,7 @@ body {
 	position:absolute; 
 }
 
+/*** 网页的第六盒子  ***/
 #maine {
 	
 	/*background-color: #069;*/
@@ -472,6 +481,7 @@ body {
 	
 }
 
+/***  第六盒子背景框  ***/
 .talkbubble {
    width: 200px; 
    height: 50px; 
@@ -483,7 +493,7 @@ body {
    font-family:"Microsoft Yahei",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WeQuanYi Micro Hei",sans-serif;
 	font-size: 18px;
 }
-
+/*** 网页的第七盒子  ***/
 #mainf {
 	
 	/*background-color: #069;*/
@@ -530,6 +540,7 @@ body {
 	float:left;
 }
 
+/*** 网页的第八盒子  ***/
 #maing {
 	
 	/*background-color: #069;*/
